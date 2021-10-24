@@ -41,7 +41,7 @@ dict_of_groups_of_3[("Group " + str(number_of_valid_groups_of_3))] = [digimon_na
 ```
 The variable number_of_valid_groups_of_3 is that counter. 
 
-Another element of completing this probelm was making sure that there were no digimon that were repeated. I did this through including all of the code to check if the group was correct in if statements that ensured there were no repeats. 
+Another element of completing this problem was making sure that there were no digimon that were repeated. I did this through including all of the code to check if the group was correct in if statements that ensured there were no repeats. 
 
 The one big problem I ran into was being able to access this dictionary without having to create it every single time. The code runs through nearly 2,000,000 combinations of digimon which takes a while and returns 100,000+ valid groups. So, I needed a way to export the dictionary so that I could access it with a separate file. I did this using the pickle module. The code looked like:
 
