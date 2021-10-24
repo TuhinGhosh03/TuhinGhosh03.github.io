@@ -3,7 +3,9 @@ layout: post
 title: Lab 1 Post: csv module
 subtitle: By: Tuhin Ghosh
 gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
 tags: [digimon]
+comments: true
 ---
 
 Collaborators: Claire Goldberg, Bulyn Panjamapirom, Darson Chen, Elias Romero, Uddipto Nandi, Divya Ponda, and Larry Tao
