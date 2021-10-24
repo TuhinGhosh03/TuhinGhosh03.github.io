@@ -2,7 +2,7 @@
 layout: post
 title: Lab 1 Post: csv module
 subtitle: By: Tuhin Ghosh
-gh-repo: TuhinGhosh03/TuhinGhosh03.github.io
+gh-repo: daattali/beautiful-jekyll
 tags: [digimon]
 ---
 
