@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Digimon Lab
+title: Research Paper Meta Analysis
 subtitle: By Tuhin Ghosh
-tags: [digimon]
+tags: [Research Paper Review]
 comments: true
 ---
 
