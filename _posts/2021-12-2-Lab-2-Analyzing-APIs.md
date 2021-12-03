@@ -47,6 +47,14 @@ Brown| 11
 Gray| 31 
 Colorful| 14
 
-## 4 Discuss your process of how you worked on this lab. Include details such as who you worked with, what methods you tried, what worked or didn’t work, what could have gone better, and what you learned during this lab. Focus more on the programming side of the lab! Feel free to attach images, screenshots, pseudocode, etc to elaborate on your response.
+## 4. Discuss your process of how you worked on this lab. Include details such as who you worked with, what methods you tried, what worked or didn’t work, what could have gone better, and what you learned during this lab. Focus more on the programming side of the lab! Feel free to attach images, screenshots, pseudocode, etc to elaborate on your response.
 
+The issue that took the longest to initially fix was an issue with the encoding of the data retrieved from the API. I worked with Larry to understand the origin of the issues and how to fix them. Ultimately, with the help of an unamed savior, we found that the terminal we were running the files in(Powershell) was automatically adding a BOM marker during redirection. Therefore, the fix was to encode and decode the data while creating, but also run the creation file in the Command Prompt instead. The codecs module was also used for this process. Then, there were no issues in the analysis file. I realize that the encoding could have been done in the analysis file as well, but I decided to keep that resolution of the isssue in the creatiopn file to avoid complexity for the analysis. 
 
+While the answer to #2 was straightforward, I feel like my answer to #3 could have been a little better optimized. I would have like to find a better way to check and increment the number of colors than a bunch of conditional statements. Not only does my current way take a lot of time to understand, but it also takes a while to make the psuedocode and finetune the code itself. 
+
+I learned that one can not use the "is not" syntax with two strings that are not variables. Instead, I had to use 
+```python
+color_1 != color_2
+```
+I faced this issue when checking if the colors of a sock were the same for Problem 3. 
